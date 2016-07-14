@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<<<<<<< HEAD
 <loc>http://abrechaves.github.io/</loc>
 </url>
 <url>
@@ -12,11 +11,5 @@
 </url>
 <url>
 <loc>http://abrechaves.github.io/archives/</loc>
-=======
-<loc>http://abrechaves.github.io/blog/archives/</loc>
-</url>
-<url>
-<loc>http://abrechaves.github.io/</loc>
->>>>>>> 57c7c1aa2d243ad56a6797ef4b777c06f831c00a
 </url>
 </urlset>
