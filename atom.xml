@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Abre Chaves]]></title>
   <link href="http://abrechaves.github.io/atom.xml" rel="self"/>
   <link href="http://abrechaves.github.io/"/>
@@ -8,6 +9,15 @@
   <id>http://abrechaves.github.io/</id>
   <author>
     <name><![CDATA[Abre Chaves]]></name>
+=======
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://abrechaves.github.io/atom.xml" rel="self"/>
+  <link href="http://abrechaves.github.io/"/>
+  <updated>2016-06-18T12:25:16-03:00</updated>
+  <id>http://abrechaves.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+>>>>>>> 57c7c1aa2d243ad56a6797ef4b777c06f831c00a
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
