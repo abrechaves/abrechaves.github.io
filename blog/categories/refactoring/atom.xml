@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Abre Chaves]]></title>
-  <link href="http://abrechaves.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Refactoring | Abre Chaves]]></title>
+  <link href="http://abrechaves.github.io/blog/categories/refactoring/atom.xml" rel="self"/>
   <link href="http://abrechaves.github.io/"/>
   <updated>2016-07-15T13:28:26-03:00</updated>
   <id>http://abrechaves.github.io/</id>

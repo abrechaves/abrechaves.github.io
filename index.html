@@ -1,88 +1,72 @@
 
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<title>  | Abre Chaves</title>
+  <meta charset="utf-8">
+  <title>Abre Chaves</title>
+  <meta name="author" content="Abre Chaves">
 
-	<meta name="author" content="Abre Chaves"> 
-	
-	<meta name="description" content="Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem &hellip;"> <meta name="keywords" content="">
+  
+  <meta name="description" content="Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem &hellip;">
+  
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="/atom.xml" rel="alternate" title="Abre Chaves" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	
+  
+  <link rel="canonical" href="http://abrechaves.github.io">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Abre Chaves" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  
+
 </head>
 
-
-
-<body>
-	<header id="header" class="inner"><h1>Abre Chaves</h1>
-<nav id="main-nav"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/archives">Archive</a></li>
-	<li><a href="/contact">Contact</a></li>
-</ul>
-</nav>
-
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Abre Chaves</a></h1>
+  
+</hgroup>
 
 </header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  
+  
+</ul>
 
-	<div id="content" class="inner">
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2016/07/14/design-smells/">
-		
-			Design Smells</a>
-	</h2>
-	<div class="entry-content">
-		<p align="justify">
-    Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses bad smells e ter argumentos que dão embassamento à escolha de boas práticas de desenvolvimento. Por isso que como primeiro post do blog decidi dar nomes aos principais mau cheiros do desenvolvimento de software.
-</p>
-
-
-<p align="justify">
-    São quatro os design smells que vou tratar nesse post: Rigidez, Fragilidade, Imobilidade e Viscosidade.
-    Rigidez é quando o custo de uma alteração no software é muito alto do ponto de vista de build, ou seja, quando o tempo de build e de execução da sua suíte de testes é elevado demais. Temos que nos concientizar que um ambiente ideal de desenvolvimento deve dar feedbacks frequentes ao desenvolvedor, e por tanto, os testes devem executar o mais rápido possível, preferencialmente em poucos segundos. Além disso, builds demorados podem onerar o desempenho da IDE utilizada para desenvolvimento.
-</p>
-
-
-<p align="justify">
-    Fragilidade é quando alterações em um determinado módulo da aplicação acaba por ocasionar erros e/ou situações inesperadas em outro módulo não diretamente relacionado ao primeiro. Imagine que uma alteração no módulo de RH de um sistema ERP gere erros no módulo de faturamento. Situações como essas colocam em cheque a manutenabilidade do sistema e ainda acabam com a confiança dos desenvolvedores em corrigir bugs e desenvolver novas funcionalidades.
-</p>
-
-
-<p align="justify">
-    Se componentes internos à um módulo da aplicação não podem ser facilmente componentizados, extraídos e reutilizados, chamamos o código de imóvel. A principal desvantagem da Imobilidade é a duplicação de código e a dificuldade de dar manutenção ao sistema, visto que algumas alterações devem ser repetidas em diversos pontos diferentes. Não é incomum esquecer de replicar essas alterações ou correções exatamente na primeira funcionalidade que o usuário utilizará assim que a nova versão do sistema ir ao ar.
-</p>
-
-
-<p align="justify">
-    Por último, mas não menos importante, temos a Viscosidade. Design smell que ocorre quando operações rotineiras e necessárias ao processo de desenvolvimento são custosos e geralmente tomam tempo demais do desenvolvedor. Por exemplo: Um commit no sistema de controle de versão ocasiona situação de merge complexa e demorada. Essas situações geralmente estão relacionadas a componentes com multiplas responsabilidades e que possuem alto índice de alteração.
-</p>
-
-
-<p align="justify">
-    Não deve ser difícil para desenvolvedores encontrarem exemplos com esses no dia-a-dia. O que pode ser díficil é se livrar deles, mesmo que todos estejam fortemente relacionados a problemas de acoplamento. Há diversos princípios e boas práticas que podem nos ajudar nessa tarefa e em próximos posts nós conheceremos os príncipios SOLID, que teem tudo para nos ajudar a nos livrar desses bad smells.
-</p>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/07/14/design-smells/">Design Smells</a></h1>
+    
+    
+      <p class="meta">
+        
 
 
 
@@ -95,21 +79,119 @@
 
 
 
-<time datetime="2016-07-14T00:00:00-03:00" pubdate data-updated="true">Jul 14th, 2016</time></div>
-	
+<time datetime="2016-07-14T14:11:24-03:00" pubdate data-updated="true">Jul 14th, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p align="justify">
+    Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses bad smells e ter argumentos que dão embassamento à escolha de boas práticas de desenvolvimento. Por isso que como primeiro post do blog decidi dar nomes aos principais mau cheiros do desenvolvimento de software.
+</p>
 
 
 </div>
-</article>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2016/07/14/design-smells/">Read on &rarr;</a>
+    </footer>
+  
 
 
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
 </div>
-	<footer id="footer" class="inner">Copyright &copy; 2016
- Abre Chaves 
-<br>
-Powered by Octopress.
+<aside class="sidebar">
+   
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:abrechaves.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/07/14/design-smells/">Design Smells</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Abre Chaves -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
 </footer>
-	
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+<script>
+  $(document).ready(function() {  
+    var stickyNavTop = $('nav').offset().top;  
+      
+    var stickyNav = function(){  
+      var scrollTop = $(window).scrollTop(); 
+      var navHasClassSticky = $('nav').hasClass('sticky');
+
+      if (scrollTop > stickyNavTop && navHasClassSticky) {   
+        return true;
+      } else if (scrollTop > stickyNavTop) {
+        $('nav').hide();
+        $('nav').addClass('sticky');
+        $('nav').fadeIn('2000');
+      } else {  
+        $('nav').removeClass('sticky');   
+      }  
+    };  
+      
+    stickyNav();  
+      
+    $(window).scroll(function() {  
+      stickyNav();  
+    });  
+  });  
+</script>
+
 
 </body>
 </html>

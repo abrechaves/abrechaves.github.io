@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://abrechaves.github.io/blog/2016/07/14/design-smells/</loc>
-<lastmod>2016-07-14T00:00:00-03:00</lastmod>
+<lastmod>2016-07-14T14:11:24-03:00</lastmod>
 </url>
 <url>
 <loc>http://abrechaves.github.io/</loc>
@@ -15,5 +15,17 @@
 </url>
 <url>
 <loc>http://abrechaves.github.io/archives/</loc>
+</url>
+<url>
+<loc>http://abrechaves.github.io/blog/categories/clean-code/</loc>
+</url>
+<url>
+<loc>http://abrechaves.github.io/blog/categories/design-smells/</loc>
+</url>
+<url>
+<loc>http://abrechaves.github.io/blog/categories/refactoring/</loc>
+</url>
+<url>
+<loc>http://abrechaves.github.io/blog/categories/solid/</loc>
 </url>
 </urlset>
