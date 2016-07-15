@@ -3,13 +3,14 @@ layout: post
 title: "Design smells"
 date: 2016-07-14 14:11:24 -0300
 comments: true
-categories:[Clean code, design smells, refactoring, SOLID] 
 author: Gesiel Silva
+categories: [Clean code, design smells, refactoring, SOLID] 
 ---
 
 <p align="justify">
     Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses bad smells e ter argumentos que dão embassamento à escolha de boas práticas de desenvolvimento. Por isso que como primeiro post do blog decidi dar nomes aos principais mau cheiros do desenvolvimento de software.
 </p>
+<!-- more -->
 <p align="justify">
 	São quatro os design smells que vou tratar nesse post: Rigidez, Fragilidade, Imobilidade e Viscosidade.
 	Rigidez é quando o custo de uma alteração no software é muito alto do ponto de vista de build, ou seja, quando o tempo de build e de execução da sua suíte de testes é elevado demais. Temos que nos concientizar que um ambiente ideal de desenvolvimento deve dar feedbacks frequentes ao desenvolvedor, e por tanto, os testes devem executar o mais rápido possível, preferencialmente em poucos segundos. Além disso, builds demorados podem onerar o desempenho da IDE utilizada para desenvolvimento.
