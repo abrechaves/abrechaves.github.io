@@ -8,7 +8,7 @@ categories: [Clean code, design smells, refactoring, SOLID]
 ---
 
 <p align="justify">
-    Na minha experiência como desenvolvedor foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses bad smells e ter argumentos que dão embassamento à escolha de boas práticas de desenvolvimento. Por isso que como primeiro post do blog decidi dar nomes aos principais mau cheiros do desenvolvimento de software.
+    Como desenvolvedor, foram inúmeras as vezes que me deparei com design smells. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses bad smells e ter argumentos que dão embassamento à escolha de boas práticas de desenvolvimento. Por isso que como primeiro post do blog decidi dar nomes aos principais mau cheiros do desenvolvimento de software.
 </p>
 <!-- more -->
 <p align="justify">
