@@ -5,7 +5,7 @@ date: 2016-07-14 14:11:24 -0300
 comments: true
 author: Gesiel Silva
 categories: [Clean code, design smells, refactoring, SOLID]
-visibility: false 
+published: false 
 ---
 <p align="justify">
     Como desenvolvedor, foram inúmeras as vezes que me deparei com <em>design smells</em>. O problema é que muitos desenvolvedores não sabem o que estão fazendo de errado e nem quais consequências terão mediante suas decisões. Precisamos dar nomes a esses problemas e ter argumentos que dão embasamento à escolha de boas práticas de desenvolvimento. Mas afinal, quais são os principais mau cheiros no desenvolvimento de software?
